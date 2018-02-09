@@ -1,0 +1,109 @@
+.collection-box {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #404040;
+    padding: 0 !important;
+    padding-top: 30px!important;
+    overflow: auto;
+}
+.collection-box > div{
+    flex-shrink: 0;
+}
+
+.collection-item {
+    height: 40px;
+    width: 100%;
+    background-color: #404040;
+    color: #f2f2f2;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.collection-item > span {
+    display: block;
+    height: 100%;
+    width: 85%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 14px;
+    /*text-align: center;*/
+    line-height: 40px;
+}
+
+.collection-add-btn {
+    width: 80%;
+    margin: 0 auto;
+    cursor: pointer;
+    text-align: left;
+    color: #f2f2f2;
+    font-size:13px;
+}
+
+.collection-item:hover {
+    background-color: #6e6e6e;
+}
+
+.collection-item-gear {
+    height: 100%;
+    width: 15%;
+    float: right;
+    /*padding: 5px 0;*/
+    text-align: center;
+    line-height: 40px;
+
+}
+
+.goto-index-btn {
+    width: 100%;
+    height: 90px;
+    color: rgba(236,114,89,.8);
+    text-align: center;
+    cursor: pointer;
+}
+.goto-index-btn > a {
+    width: 75%;
+    height: 44px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid rgba(236,114,89,.8);
+    border-radius: 20px;
+    line-height: 40px;
+    font-weight: 800;
+}
+
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    height: 100%;
+}
+.no-margin{
+    margin: 0!important;
+}
+.edit-right{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0 0 0 ;
+}
+.edit-title{
+    height: 8%;
+}
+.edit-title > input{
+    width: 100%;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+}
+.edit-title > input:focus{
+    border: none;
+    outline: none;
+}
+
+#acfun{
+    display: flex;
+    flex-direction: column;
+}
